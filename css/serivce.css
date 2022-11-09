@@ -16,6 +16,16 @@ body>h3{
   padding-top: 2vh;
   padding-bottom: 2vh;
 }
+
+.cust_img{background-color:rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  }
+  .cust_img >img{
+      width: 20vw;
+      height: 15vh;
+  }
+
 .container {
   border-radius: 5px;
   background-color: rgb(233, 233, 233);
@@ -150,6 +160,9 @@ input[type=submit] {
 @media (max-width: 991px) {
   html {
     font-size: 55%;
+  }
+  .cust_img{
+    display: none;
   }
  .container{
   display: flex;
