@@ -160,7 +160,8 @@ input[type=submit]:hover {
     }
 
     .side1 {
-        width: 100Vw;
+        /* width: 100Vw; */
+        display: none;
     }
 
     .side2 {
@@ -178,7 +179,8 @@ input[type=submit]:hover {
     }
 
     .side1 {
-        width: 100Vw;
+        /* width: 100Vw; */
+        display: none;
     }
 
     .side2 {
